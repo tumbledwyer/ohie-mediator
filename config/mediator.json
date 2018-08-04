@@ -1,8 +1,8 @@
 {
     "urn": "urn",
     "version": "0.0.1",
-    "name": "transformation",
-    "description": "transformation",
+    "name": "AdxOnFhir",
+    "description": "Transforms ADX to FHIR messages",
     "defaultChannelConfig": [
       {
         "name": "transformation",
@@ -31,8 +31,7 @@
     "endpoints": [
       {
         "name": "transformation Route",
-        "host": "localhost",
-        "path": "/",
+        "host": "host.docker.internal",
         "port": "3001",
         "primary": true,
         "type": "http"
@@ -48,6 +47,6 @@
       }
     ],
     "config": {
-      "upstreamUrl": "http://sampleApplication:7001"
+      "upstreamUrl": "http://localhost:5001/fhir"
     }
   }
