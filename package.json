@@ -8,11 +8,10 @@
   "dependencies": {
     "async": "^1.4.2",
     "body-parser": "^1.18.3",
-    "body-parser-xml": "^1.1.0",
     "confit": "^2.0.3",
     "express": "^4.16.3",
     "express-remove-route": "^0.1.1",
-    "express-xml-bodyparser": "^0.3.0",
+    "fhir-validator": "^0.5.1",
     "graceful-fs": "^4.1.2",
     "latest-version": "^2.0.0",
     "mkdirp": "^0.5.0",
@@ -24,8 +23,7 @@
     "server-graceful-shutdown": "^0.1.2",
     "type-is": "^1.5.5",
     "winston": "^1.1.2",
-    "x2js": "^3.2.1",
-    "xml2js": "^0.4.19"
+    "x2js": "^3.2.1"
   },
   "main": "lib/index.js",
   "directories": {
